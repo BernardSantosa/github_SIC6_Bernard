@@ -1,0 +1,72 @@
+Introduction to IOT & AI
+
+AI :
+1. ML
+Technique : Classification, Reggression, Assosiate, 
+-Unsupervised Learning
+//Salah satu tehnik di unlabeled data, tujuannya untuk melihat hidden relation ship / hubungan tak terlihat dan karakteristik dari suatu data
+Langkah :
+Input raw data -> intepretation -> predict 
+cth:
+-Dimension Reduction
+-Clustering (K-mean clustering)
+
+-Supervised Learning
+//Udah ada target data, jadi mesin belajar dari data yang sudah kitak asih dan output yang kita tentukan
+Cth :
+-Classification(membuat suatu kategory)
+cth:Support Vector Machine & KNN
+*SVM akan memberikan higher plate atau garis invisible, dan akan menghitung dia akan lebih cocok di grup A atau B (Cocok untuk data besar dan dipisahkan secara linear)
+*KNN mirip, dia mencari tetangga terdekat untuk tau cocok ke grup mana (lebih cocok data kecil dan tidak banyak data outlier)
+
+-Regression (for predict continious output/value) 
+cth : Linear Reggresion dan Logistic Regression
+*Salah satu model tersimple, kayak prediksi harga rumah, saham, energy comsumption.
+
+-Reiforcement Learning
+//Mengeluarkan reward yang mendekatkan model terhadap suatu tujuan
+analogi : anak2 melakukan sesuatu yang baik akan diberi reward, kalau buruk diberi punishment
+Cth kasus :
+-Game mario, kalau dia gerak ke kanan bener dikasih reward, kalau di kekiri salah di kasih punish, atau ternyata dia harus ke kanan kanan atau kanan kiri atau lompat atau diem.
+
+Cth:
+-Control
+
+-Prediction
+
+2. Deep Learning
+Mesin yang mimic the brain, learn & Refine, self Correction , Powerfull & Adaptable
+
+cth :
+-CNN
+-RNN
+
+AI yang baik dan bener harus gimana :
+-Focus First (Fokus goalnya mau kemana)
+-Start Smart (mulai dari small scale project / project simple dulu, jangan langsung susah kayak chat gpt)
+-
+
+Yang harus diwaspadai :
+-Human expertise matter (tetap butuh manusia menilai dalam critical task)
+-Ai isnt magic (AI bukan magic tapi science, ada limitasi)
+-Beware Overfitting (latihan bagus tapi pas di tes ga bagus)
+-Security First (data-data dipastikan aman)
+
+AI Solution:
+Image Recognition (salah satu application of AI)
+-kalau kedetect muka, ke detect hidung atau foto lainnya
+-bisa juga di pabrik, packaging inspection, kalau pabrik hp di inspeksi pake mata manual akan cape, jadi akan sangat membantu kalau pake AI, karena kalau manusia bisa ga objektif
+
+Speech and voice Recognition
+-Nanti ada suara, di tebak siapa, atau lagi ngomong apa
+
+Conversational AI
+-Kalau dibilang besok ada meeting jam 10, nanti di set sama AI alarm atau schedule jam 10
+
+HealthCare
+
+Autonomous Car (cth : tesla)
+-Deteksi didepan ada orang ato jalannya, lokasinya dimana gimana dll
+
+Iot and AI in Agriculture
+Melihat kematangan buah, dilihat dari parameter dan feature, misal warna udah cocok, ada daunnya itu tandanya udah mateng, ada arm robot nanti dimasukan ke wadah

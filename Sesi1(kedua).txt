@@ -1,0 +1,70 @@
+Iot (The Internet of Things)
+-Describe the netwrok of physical object
+ada software didalam physical object, untuk mengatur data server dan mengirim data ke internet
+
+tujuan : connected dan exchanging data dengan device lain dan over the internet
+
+IOT menambah dimensi baru untuk solusi ide dan kesempatan
+kayak rubik, kalau 3x3 ada 100 cara misal, tapi kalo 4x4 nanti lebih banyak cara
+
+misal smarttv, smartwatch, dll
+
+Revolusi Industri :
+-1.0 mekanisasi, steam power, weaving loom (1784)
+-2.0 mass produk, assembly line, electrical energy (1870)
+-3.0 Otomation, komputer dan elektronik (1969)
+-4.0 Cyber physical system, iot, dan network (today)
+
+IOT cth Use Cases
+-Smarthome, semua tersambung network gitu, jadi bisa dikontrol dari jauh baik dari pintu, microwave dll
+
+-Smart building ,healthcare, street light, farming dll
+
+IOT Components :
+-Processor
+Otak dari sistem, sensor, ambil data
+
+-Other Electrical Components + PCB (Printed Circuit Board)
+
+Components: 
+-Sensor
+Mendapatkan angka yang kita kuantify atau itung
+
+-Softwares (Firmware yang kita injek ke dalam device dan IOT platform yang memproses dan memviluasi data ke end user)
+
+-Actuator
+Bagian yang memberi gaya mekanik
+cth : buka pintu, nanti ada aktuator bikin pintu terbuka oleh mekanik tertentu atau lampu
+
+Faktor penting dari IOT devices :
+Cloud Service (Paling mandiri -> paling banyak fasilitas)
+On-Premis       ->  Iaas     ->     Paas    ->    Saas(netflix)
+(Semua mandiri)  
+
+Iot Platform
+-Ubidots
+
+PROTOCOL dari RFID dan NFC
+RFID dan NFC adalah tool untuk mendeteksi sesuatu, sering digunakan untuk 
+
+RFID = jarak koneksinya 100 meter, one way communikasi, jadi dia lebih jauh/ recognzie long distance
+
+NFD = part of RFID tpai lebih spesifik hanya 10cm jarak koneksi, two way communcation, keunggulannya bisa high security misal pembayaran
+
+Bluetooth : teknologi nirkabel (2.4GHz) yang digunakan untuk bertukar data, suara, dan video dalam jarak dekat.
+
+Bisa menghemat batre = Bluetooth low Power
+
+LPWA (Low Power Wide Area)
+teknologi nirkabel, yang kirim datanya cuma dikit, tapi jangkauannya atau rangenya sangat panjang, misal kondisi suhu hutan atau apa.
+
+MQTT (Massage Queue Telemetry Transport)
+Jadi seperti jembatan
+
+misal
+ada sensor yang topicnya myhome/groundfloor/livingroom/temp -> topic akan diterima broker -> nanti ada subscribe
+
+Broker :
+-New Connection
+-Isi nama, broker.emqx.io, port 8084, path /mqtt
+-Client ID jangan sam ketika terhubung ke browser
